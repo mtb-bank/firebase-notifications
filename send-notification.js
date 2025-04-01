@@ -9,9 +9,7 @@ admin.initializeApp({
 });
 
 /** Array of device tokens */
-const deviceTokens = [
-
-];
+const deviceTokens = [];
 
 /**
  * Function to send push notifications
@@ -24,7 +22,7 @@ async function sendNotification() {
 
   /** Example data for sending */
   const data = {
-    "interactAction": "RE_IDENTIFICATION_UPDATE_STATUS",
+    interactAction: "RE_IDENTIFICATION_UPDATE_STATUS",
     // other parameters needed for message sending
   };
 

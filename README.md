@@ -29,5 +29,3 @@ npm run send
 ## Configuration
 
 Make sure to configure the correct notification parameters in send-notification.js:
-- topic - topic for sending notification
-- notification - object with notification title and body
