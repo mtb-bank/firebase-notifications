@@ -1,0 +1,15 @@
+{
+  "name": "firebase-notifications",
+  "version": "1.0.0",
+  "description": "Firebase notifications sender",
+  "main": "send-notification.js",
+  "scripts": {
+    "send": "node send-notification.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase-admin": "^11.0.0"
+  }
+}
